@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome page | Banco Santa Fe</title>
+
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="welcome-container">
+        <article class="welcome-container__welcome-left">
+            <h1 class="welcome-left__title">Billetera Santa Fe</h1>
+            <div class="welcome-left__description">
+                <p>Un programa de beneficios a través de PlusPagos
+                    para que puedas comprar lo que necesites con beneficios exclusivos.</p>
+            </div>
+            <div class="welcome-left__app-platforms">
+                <div class="app-platforms__title">
+                    <h3>Descargate la app</h3>
+                </div>
+                <div class="app-platforms__platforms">
+                    <a href="#" target="_blank" class="platforms__link-image platforms__link-image--play-store">
+                        <img src="http://audiomurcia.es/wp-content/uploads/2020/01/play-1.png"
+                            alt="play store logo">
+                    </a> 
+                    <a href="#" target="_blank" class="platforms__link-image">
+                        <img src="https://graffica.info/wp-content/uploads/2016/09/AppStore-1024x364.png" 
+                        alt="app store logo">
+                    </a>
+                </div>
+            </div>
+        </article>
+        <article class="welcome-container__welcome-right">
+            <h3 class="welcome-right__title">Inicio de sesión</h3>
+            <form class="welcome-right__form-login">
+                <div class="form-login__input-item-login">
+                    <label for="dni">DNI</label>
+                    <input type="text" id="dni" required>
+                </div>
+                <div class="form-login__input-item-login">
+                    <label for="contrasena">Contraseña</label>
+                    <input type="text" id="contrasena" required>
+                </div>
+                <div class="form-login__input-item-login">
+                    <input type="button" id="button-login" value="Ingresar">
+                </div>
+                <a href="#forgot-password">Olvidé mi contraseña.</a>
+            </form>
+        </article>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
