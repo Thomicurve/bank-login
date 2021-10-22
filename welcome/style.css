@@ -57,7 +57,7 @@
 
 .app-platforms__title {
     font-size: 12px;
-    color: #013a61;
+    color: #cfe6f5;
 }
 
 .platforms__link-image img {
@@ -122,3 +122,9 @@
     font-size: 14px;
 }
 
+
+@media screen and (max-width: 1050px) {
+    .form-login__input-item-login {
+        width: 80%;
+    }
+}
